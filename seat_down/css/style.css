@@ -183,7 +183,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.entry_text a {
+.a_button {
     background-color: var(--green);
     color: white;
     text-decoration: none;
@@ -193,7 +193,7 @@ footer {
     border-radius: 25px;
 }
 
-.entry_text a:hover {
+.a_button:hover {
     background-color: transparent;
     color: var(--green);
     border: 2px solid var(--green);

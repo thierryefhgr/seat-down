@@ -258,6 +258,50 @@ footer {
     width: 100%;
 }
 
+/*Function*/
+.main_function {
+    padding: 5% 3%;
+}
+
+.function {
+    background-color: white;
+    padding: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.step {
+    background-color: var(--lightgray);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    position: relative;
+}
+
+.step img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 -25px -25px;
+    width: 80px;
+}
+
+.step h1 {
+    font-size: 60px;
+}
+
+.step_text {
+    margin: 15px;
+}
+
+.step p {
+    margin-top: 10px;
+}
+
 /*Unterseite Business*/
 .main_business {
     padding: 0 15px;
@@ -287,7 +331,7 @@ footer {
     margin: 30px 0;
 }
 
-.interview-card {
+.interview_card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -375,6 +419,23 @@ form button {
         width: 50%;
     }
 
+    /*Function*/
+    .step img {
+        width: 100px;
+    }
+
+    .step h1 {
+        font-size: 80px;
+    }
+
+    .step_text {
+        margin: 40px;
+    }
+
+    .step p {
+        margin-top: 15px;
+    }
+
     /*Unterseite Business*/
     .entry_image_subpage {
         height: 200px;
@@ -384,7 +445,7 @@ form button {
         bottom: 40px;
     }
 
-    .interview-card {
+    .interview_card {
         flex-direction: row;
         margin: 20px 0;
         padding: 0 20px;
@@ -482,6 +543,33 @@ form button {
         width: 70%;
     }
 
+    /*Function*/
+    .function {
+        padding: 8% 15%;
+        gap: 50px;
+    }
+
+    .step {
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .step img {
+        width: 120px;
+    }
+
+    .step h1 {
+        font-size: 80px;
+    }
+
+    .step_text {
+        margin: 60px;
+    }
+
+    .step p {
+        margin-top: 20px;
+    }
+
     /*Unterseite Business*/
     .main_business {
         padding: 0 2%;
@@ -499,7 +587,7 @@ form button {
         margin: 40px 0;
     }
 
-    .interview-card {
+    .interview_card {
         flex-direction: row;
         margin: 50px 0;
         padding: 2%;

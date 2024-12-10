@@ -8,6 +8,8 @@
 :root {
     --green: #6CBF69;
     --creme: #F1E3C1;
+    --gray: #808080;
+    --lightgray:#D3D3D3;
 }
 
 /*Generelle Einstellungen*/
@@ -34,6 +36,12 @@ h2 {
 
 h3 {
     font-size: 18px;
+}
+
+h4 {
+    color: var(--gray);
+    font-size:12px;
+    font-weight: light;
 }
 
 button {
@@ -183,7 +191,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.a_button {
+.entry_text a {
     background-color: var(--green);
     color: white;
     text-decoration: none;
@@ -193,7 +201,7 @@ footer {
     border-radius: 25px;
 }
 
-.a_button:hover {
+.entry_text a:hover {
     background-color: transparent;
     color: var(--green);
     border: 2px solid var(--green);
@@ -376,4 +384,31 @@ footer {
     .single_value img {
         width: 70%;
     }
+}
+/* Contact */
+.form{
+    padding: 8% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20%;
+    text-align: left;
+}
+
+input[type=text] {
+    background-color: var(--lightgray); 
+    padding: 2% 2%;
+    width: 100%;
+    margin: 2% 2%;
+    box-sizing: border-box;
+    border: none;
+    
+}
+
+label{
+    padding-left: 2%;
+}
+
+.einzug{
+    padding-left: 2%;
 }

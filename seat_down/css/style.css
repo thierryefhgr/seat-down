@@ -10,6 +10,7 @@
     --creme: #F1E3C1;
     --gray: #808080;
     --lightgray: #D3D3D3;
+    --red: #BF1F1F;
 }
 
 /*Generelle Einstellungen*/
@@ -55,8 +56,12 @@ button:hover {
     border: 2px solid var(--green);
 }
 
-.highlight {
+.green_highlight {
     color: var(--green);
+}
+
+.red_highlight {
+    color: var(--red);
 }
 
 /*Für jede Seite gleich*/
@@ -302,7 +307,7 @@ footer {
     margin-top: 10px;
 }
 
-/*Unterseite Business*/
+/*Business*/
 .main_business {
     padding: 0 15px;
 }
@@ -350,6 +355,47 @@ footer {
 .textbox {
     width: 80%;
     padding-bottom: 40px;
+}
+
+/*About us*/
+.text_creme {
+    background-color: var(--creme);
+    padding: 8% 4%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_person {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.about_white {
+    background-color: white;
+}
+
+.about_creme {
+    background-color: var(--creme);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+    text-align: center;
+}
+
+.about_us_img {
+    width: 30%;
+}
+
+.person_description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 /* Contact */
@@ -436,7 +482,7 @@ form button {
         margin-top: 15px;
     }
 
-    /*Unterseite Business*/
+    /*Business*/
     .entry_image_subpage {
         height: 200px;
     }
@@ -458,6 +504,16 @@ form button {
 
     .textbox {
         padding: 20px 0;
+    }
+
+    /*About us*/
+    .about {
+        flex-direction: row;
+        padding: 0% 4%;
+    }
+
+    .about_us_img {
+        width: 50%;
     }
 }
 
@@ -570,7 +626,7 @@ form button {
         margin-top: 20px;
     }
 
-    /*Unterseite Business*/
+    /*Business*/
     .main_business {
         padding: 0 2%;
     }
@@ -603,5 +659,10 @@ form button {
 
     .textbox p {
         margin-top: 10px;
+    }
+
+    /*About Us*/
+    .about_us_img {
+        width: 60%;
     }
 }

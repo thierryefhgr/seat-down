@@ -8,6 +8,8 @@
 :root {
     --green: #6CBF69;
     --creme: #F1E3C1;
+    --gray: #808080;
+    --lightgray: #D3D3D3;
 }
 
 /*Generelle Einstellungen*/
@@ -183,7 +185,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.entry_text a {
+.a_button {
     background-color: var(--green);
     color: white;
     text-decoration: none;
@@ -193,7 +195,7 @@ footer {
     border-radius: 25px;
 }
 
-.entry_text a:hover {
+.a_button:hover {
     background-color: transparent;
     color: var(--green);
     border: 2px solid var(--green);
@@ -254,6 +256,35 @@ footer {
 
 .single_value img {
     width: 100%;
+}
+
+/* Contact */
+.form {
+    padding: 8% 10%;
+}
+
+.p_info_form {
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: light;
+    padding-left: 2%;
+}
+
+input[type=text] {
+    background-color: var(--lightgray);
+    padding: 2% 2%;
+    width: 100%;
+    margin: 2% 2%;
+    box-sizing: border-box;
+    border: none;
+}
+
+label {
+    padding-left: 2%;
+}
+
+form button {
+    margin-top: 15px;
 }
 
 @media(min-width: 700px) {

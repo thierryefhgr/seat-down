@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seat Down</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="index.html"><img class="nav_logo" src="img/logo_seat_down.PNG" alt="Logo Seat Down News"></a></li>
+            <li><a href="download.html">So funktioniert's</a></li>
+            <li><a href="business.html">Business</a></li>
+            <li><a href="about_us.html">Über Uns</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    <section class="entry_image">
+        <img src="img/Contact_image.jpg" alt="Entry Image">
+        <div class="entry_text">
+            <h1>Anfrage einreichen</h1>
+        </div>
+    </section>
+
+    <section class="form">
+        <form method="post" action="contact-form-handler.php">
+            <label for="E-Mail">E-Mail Adresse</label>
+            <input type="text" id="E-Mail" name="E-Mail">
+            <label for="betreff"> Betreff</label>
+            <input type="text" id="betreff" name="betreff">
+            <label for="beschreibung">Beschreibung</label>
+            <p class="p_info_form">(Geben Sie Details zu Ihrer Anfrage ein. Ein Mitglied unseres Supportteams wird umgehend antworten)</p>
+            <input type="text" id="beschreibung" name="beschreibung">
+            <label for="sdregion">Ihre SeatDown-Region</label>
+            <p class="p_info_form">(Optional)</p>
+            <input type="text" id="sdregion" name="sdregion">
+            <label for="tel">Telefonnummer</label>
+            <input type="text" id="tel" name="tel">
+            <p class="p_info_form">Format (Landesvorwahl + Nummer) +41xx xxx xx xx</p>
+            <p class="p_info_form">Ihre Personendaten werden gemäss unseren Datenschutzhinweisen verarbeitet, um Ihre Anfrage zu bearbeiten und zu beantworten.</p>
+            <button type="submit">Einreichen</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer_text">
+            <p>© Train(ees) AG</p>
+            <div><a href="mailto:@stud.fhgr.ch">E-Mail</a>
+            </div>
+        </div>
+        <div class="footer_logos">
+            <img class="rounded_logo" src="img/logo_seat_down.png" alt="Logo Seat Down">
+            <div class="download_logos">
+                <img src="img/logo_download_app_store.webp" alt="Download App Store">
+                <img src="img/logo_download_play_store.webp" alt="Download Google Play">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

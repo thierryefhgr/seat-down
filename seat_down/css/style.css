@@ -77,7 +77,7 @@ nav {
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 1;
+    z-index: 10;
     /*Damit Nav beim Scrollen über anderen Element angezeigt wird*/
     width: 100%;
 }
@@ -236,7 +236,7 @@ footer {
     background-color: var(--creme);
     padding: 10px 2px;
     font-weight: bold;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .values {
@@ -256,6 +256,56 @@ footer {
 
 .single_value img {
     width: 100%;
+}
+
+/*Unterseite Business*/
+.main_business {
+    padding: 0 15px;
+}
+
+.entry_image_subpage {
+    position: relative;
+    height: 150px;
+}
+
+.entry_image_subpage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.subpage_header {
+    color: white;
+    width: 80%;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(106, 111, 105, 0.8) 60%, rgba(203, 213, 201, 0) 100%);
+    position: absolute;
+    bottom: 30px;
+}
+
+.text_business {
+    margin: 30px 0;
+}
+
+.interview-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--creme);
+    margin: 40px 0;
+    border-radius: 40px;
+    gap: 20px;
+}
+
+.portrait {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.textbox {
+    width: 80%;
+    padding-bottom: 40px;
 }
 
 /* Contact */
@@ -323,6 +373,30 @@ form button {
 
     .single_value img {
         width: 50%;
+    }
+
+    /*Unterseite Business*/
+    .entry_image_subpage {
+        height: 200px;
+    }
+
+    .subpage_header {
+        bottom: 40px;
+    }
+
+    .interview-card {
+        flex-direction: row;
+        margin: 20px 0;
+        padding: 0 20px;
+    }
+
+    .portrait {
+        margin: 20px 0;
+        width: 25%;
+    }
+
+    .textbox {
+        padding: 20px 0;
     }
 }
 
@@ -406,5 +480,40 @@ form button {
 
     .single_value img {
         width: 70%;
+    }
+
+    /*Unterseite Business*/
+    .main_business {
+        padding: 0 2%;
+    }
+
+    .entry_image_subpage {
+        height: 300px;
+    }
+
+    .subpage_header {
+        bottom: 50px;
+    }
+
+    .text_business {
+        margin: 40px 0;
+    }
+
+    .interview-card {
+        flex-direction: row;
+        margin: 50px 0;
+        padding: 2%;
+    }
+
+    .portrait {
+        margin: 20px;
+    }
+
+    .textbox {
+        margin: 0 20px;
+    }
+
+    .textbox p {
+        margin-top: 10px;
     }
 }

@@ -192,8 +192,13 @@ footer {
     left: 30px;
 }
 
+.entry_text h1 {
+    text-shadow: 1px 1px 25px #141414;
+}
+
 .entry_text h2 {
     margin-bottom: 30px;
+    text-shadow: 1px 1px 25px #141414;
 }
 
 .a_button {

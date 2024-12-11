@@ -101,7 +101,7 @@ nav {
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     height: 100%;
     padding: 0;
 }
@@ -116,6 +116,10 @@ nav {
     text-decoration: none;
     transition: .33s;
     /*Damit es eine transition bei einem Hover gibt*/
+}
+
+.nav_links li a {
+    font-size: 15px;
 }
 
 .nav_links li a:hover {
@@ -465,6 +469,14 @@ form button {
 
     h3 {
         font-size: 25px;
+    }
+
+    .nav_links {
+        gap: 10px;
+    }
+
+    .nav_links li a {
+        font-size: 20px;
     }
 
 
